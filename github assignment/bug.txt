@@ -1,0 +1,31 @@
+Bug Description:
+Issue with Task Priority Sorting
+
+Description:
+In TaskMaster, there's a bug affecting the sorting mechanism based on task priorities. When users assign priorities to their tasks (e.g., high, medium, low), the sorting algorithm fails to accurately arrange tasks according to their priority levels.
+
+Symptoms:
+
+Incorrect Sorting Order: Tasks with lower priorities sometimes appear above tasks with higher priorities in the task list, despite the priority-based sorting setting being enabled.
+Unpredictable Behavior: The sorting inconsistency makes it challenging for users to rely on the software for managing their tasks effectively. Users may find it difficult to prioritize their workload and may overlook critical tasks mistakenly buried under lower-priority ones.
+Inability to Filter by Priority: As a result of the sorting issue, filtering tasks based on priority levels doesn't yield the expected results. Users may experience frustration when attempting to isolate high-priority tasks for focused attention.
+Reproduction Steps:
+
+Create multiple tasks with varying priority levels (e.g., high, medium, low).
+Observe the task list and note the order in which tasks are displayed.
+Modify the priorities of tasks and observe if the sorting order changes accordingly.
+Compare the actual sorting order with the expected order based on priority levels.
+Expected Behavior:
+Tasks should be sorted in descending order of priority, with high-priority tasks displayed at the top of the list, followed by medium-priority tasks, and finally low-priority tasks.
+
+Impact:
+This bug undermines the core functionality of TaskMaster, as accurate task prioritization is essential for users to effectively manage their workload and meet deadlines. The inconsistency in task sorting can lead to confusion, inefficiency, and potentially missed deadlines or overlooked tasks.
+
+Resolution:
+To address this bug, the development team will need to review and debug the sorting algorithm responsible for arranging tasks based on priority levels. They may need to identify and fix logical errors or inconsistencies in the code to ensure that tasks are sorted accurately according to their assigned priorities. Testing and quality assurance procedures should be implemented to verify the effectiveness of the bug fix and prevent similar issues from recurring in the future. Once resolved, an update or patch should be released to users to address the issue and restore the expected functionality of TaskMaster.
+
+
+
+
+
+
